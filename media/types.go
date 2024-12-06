@@ -618,6 +618,12 @@ type GetStreamUri struct {
 	ProfileToken onvif.ReferenceToken `xml:"trt:ProfileToken"`
 }
 
+type GetStreamUriV20 struct {
+	XMLName      string               `xml:"tr2:GetStreamUri"`
+	Protocol     string               `xml:"tr2:Protocol"`
+	ProfileToken onvif.ReferenceToken `xml:"tr2:ProfileToken"`
+}
+
 type GetStreamUriResponse struct {
 	MediaUri onvif.MediaUri
 }
