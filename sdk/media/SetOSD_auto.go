@@ -7,9 +7,9 @@ package media
 import (
 	"context"
 	"github.com/juju/errors"
-	"github.com/use-go/onvif"
-	"github.com/use-go/onvif/sdk"
-	"github.com/use-go/onvif/media"
+	"github.com/Luxc0/onvif"
+	"github.com/Luxc0/onvif/sdk"
+	"github.com/Luxc0/onvif/media"
 )
 
 // Call_SetOSD forwards the call to dev.CallMethod() then parses the payload of the reply as a SetOSDResponse.
